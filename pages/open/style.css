@@ -1,0 +1,13 @@
+.font-style {
+  font-family: 'Seaweed Script', cursive;
+  color: #002E71;
+  font-size: 60px;
+}
+
+html, 
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #DBCDF0;
+}
+

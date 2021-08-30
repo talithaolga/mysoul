@@ -1,0 +1,19 @@
+body {
+  background-color:  #DBCDF0;
+}
+.uk-text-center {
+  font-family: 'Kalam', cursive;
+}
+.font-color {
+  color: #FFFF;
+}
+.font-style {
+  font-style: italic;
+}
+.uk-text-bold {
+    color: #FFFF;
+}
+.label-font {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
