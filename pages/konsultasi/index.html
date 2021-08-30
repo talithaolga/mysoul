@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Konsultasi Psikolog mysoul</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+	</script>
+</head>
+
+<body>
+	<script src="script.js"></script>
+  <!-- Nadia's coding -->
+	<nav class="uk-navbar-container" uk-navbar>
+		<div class="uk-navbar-center">
+			<ul class="uk-navbar-nav">
+				<li><a onclick="goBack()" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
+        <div class="uk-padding-small">
+          <div class="uk-grid" uk-grid>
+            <div>
+              <img class="uk-border-circle" width="50" height="50" src="./foto/girl1.jpeg">
+            </div>
+            
+            <div>
+              <span class="uk-text-top"><b>Hai, Jisoo Park!</b></span>
+              <p class="uk-margin-remove">Selamat datang, <br> di konsultasi psikolog</p>
+            </div>
+          </div>
+        </div>
+        <li><a href="#" uk-icon="icon: bell; ratio: 1.5" class="uk-position-right"></a></li>
+			</ul> 
+		</div>
+	</nav>
+
+  <!-- Talitha's coding -->
+  <div class="uk-padding">
+    <div class="uk-card uk-card-primary uk-card-body uk-padding uk-border-rounded">
+      <h5 class="uk-card-title">Bingung dengan Permasalahan Hidupmu?</h5>
+      <p>Langsung chat ke ahlinya dengan klik tombol "Coba Konsultasi Gratis"</p>
+      <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom uk-border-pill" style="background-color: #01497C; color: white">Coba Konsultasi Gratis</button>
+    </div>
+    
+  <!-- <Alin's Coding> -->
+    <div class="uk-card uk-card-default uk-card-body uk-padding uk-border-rounded uk-margin">
+      <h5 class="uk-card-title">Konsultasi Psikolog</h5>
+      <div class="uk-grid uk-margin" uk-grid>
+        <div>
+          <img class="uk-border-circle" width="50" height="50" src="./foto/woman1.jpeg">
+        </div>
+        
+        <div>
+          <span class="uk-text-top">Dewi Puspitasari, M.Psi, <br> Bach. of Pscyh</span>
+          <p class="uk-margin-remove">Psikolog</p>
+          <div class="uk-grid uk-margin-remove-top" uk-grid>
+            <div>
+              <span class="uk-badge">Rp</span>
+            </div>
+
+            <div class="uk-padding-remove-left">
+              <p>95.000 / 1,5 jam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="uk-grid uk-margin" uk-grid>
+        <div>
+          <img class="uk-border-circle" width="50" height="50" src="./foto/woman2.jpeg">
+        </div>
+        
+        <div>
+          <span class="uk-text-top">Zefanya Risa, S.Psi, M.Psi</span>
+          <p class="uk-margin-remove">Psikolog</p>
+          <div class="uk-grid uk-margin-remove-top" uk-grid>
+            <div>
+              <span class="uk-badge">Rp</span>
+            </div>
+
+            <div class="uk-padding-remove-left">
+              <p>80.000 / 1 jam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom uk-border-pill" style="background-color: #01497C;">Konsultasi Berbayar</button>
+    </div>
+
+</body>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</html>
