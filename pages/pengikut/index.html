@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- UIkit CSS -->
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+	  <!-- UIkit JS -->
+	  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <nav style="background-color: #DBCDF0" class="uk-navbar uk-navbar-container">
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-toogle" uk-navbar-toogle-icon href="#">
+        <ul class="uk-iconnav">
+        <li><a onclick="goBack()" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
+        </ul>
+      </a>
+      <h3 class="style-font uk-margin-small uk-margin-small-left">Pengikut</h3>
+    </div> 
+  </nav>
+
+  <div class="uk-padding-small">
+      <div class="uk-margin">
+        <img class="uk-border-circle" width="50" height="50" src="./foto/girl1.jpeg">
+        <span class="uk-text-top uk-margin-left"><b>Yoona Park</b></span>
+        <button style="background-color: #01497C" class="uk-button uk-button-primary uk-border-pill uk-align-right">Mengikuti</button>
+      </div>
+
+      <div class="uk-margin">
+        <img class="uk-border-circle" width="50" height="50" src="./foto/girl2.jpeg">
+        <span class="uk-text-top uk-margin-left"><b>Peachy Jo</b></span>
+        <button style="color: #01497C" class="uk-button uk-button-default uk-border-pill uk-align-right">Ikuti</button>
+      </div>
+
+      <div class="uk-margin">
+        <img class="uk-border-circle" width="50" height="50" src="./foto/boy1.jpeg">
+        <span class="uk-text-top uk-margin-left"><b>Oh Sehunie</b></span>
+        <button style="background-color: #01497C" class="uk-button uk-button-primary uk-border-pill uk-align-right">Mengikuti</button>
+      </div>
+
+      <div class="uk-margin">
+        <img class="uk-border-circle" width="50" height="50" src="./foto/girl3.jpeg">
+        <span class="uk-text-top uk-margin-left"><b>Krystal Lee</b></span>
+        <button style="background-color: #01497C" class="uk-button uk-button-primary uk-border-pill uk-align-right">Mengikuti</button>
+      </div>
+
+      <div class="uk-margin">
+        <img class="uk-border-circle" width="50" height="50" src="./foto/girl4.jpeg">
+        <span class="uk-text-top uk-margin-left"><b>Jessica Park</b></span>
+        <button style="background-color: #01497C" class="uk-button uk-button-primary uk-border-pill uk-align-right">Mengikuti</button>
+      </div>
+
+      <div class="uk-margin">
+        <img class="uk-border-circle" width="50" height="50" src="./foto/boy2.jpeg">
+        <span class="uk-text-top uk-margin-left"><b>Kim Kai</b></span>
+        <button style="background-color: #01497C" class="uk-button uk-button-primary uk-border-pill uk-align-right">Mengikuti</button>
+      </div>
+
+    </div>
+  </body>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</html>
