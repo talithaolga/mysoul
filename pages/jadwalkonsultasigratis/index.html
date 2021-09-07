@@ -18,14 +18,16 @@
 </head>
 
 <body class="uk-position-relative">
-	<div style="background-color: #DBCDF0" class=" uk-navbar uk-navbar-container uk-margin-top">
-		<ul class="uk-iconnav">
-			<li><a href="" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
-			<li>
-				<h4 class="uk-margin-remove style-font uk-text-bold">Profil Psikolog</h4>
-			</li>
-		</ul>
-	</div>
+	<nav style="background-color: #DBCDF0" class="uk-navbar uk-navbar-container">
+		<div class="uk-navbar-left">
+		  <a class="uk-navbar-toogle" uk-navbar-toogle-icon href="#">
+			<ul class="uk-iconnav">
+			<li><a onclick="goBack()" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
+			</ul>
+		  </a>
+		  <h3 class="style-font uk-margin-small uk-margin-small-left">Profil Psikolog</h3>
+		</div>
+	</nav>
 
 	<div>
 		<img class="uk-border-circle uk-align-center uk-margin-medium-top uk-margin-small-bottom" src="./foto/woman2.jpeg" width="100" height="100">
@@ -49,14 +51,17 @@
 
     <div id="modal-center" class="uk-flex-top" uk-modal>
       <div style="background-color: #5C8FCB" class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-border-rounded">
-        <p style="color: white" class="uk-text-center">Memulai percaya kepada orang lain dengan cara berbagi cerita akan meringankanmu </p>
+        <p style="color: white" class="uk-text-center">Sampai bertemu di jadwal yang sudah ditentukan</p>
       
         <div class="uk-margin-small-bottom uk-position-bottom-center">
-          <button style="background-color: #01497C" class="uk-margin-right uk-button uk-button-primary uk-border-pill" uk-toggle="target: #modal-center2">Memulai sesi</button>
+          <button onclick="location.href='../konsultasi/index.html'"  style="background-color: #01497C" class="uk-margin-right uk-button uk-button-primary uk-border-pill">Oke</button>
       </div>
     </div>
 
-
-
 </body>
+<script>
+	function goBack() {
+		window.history.back();
+	  }
+</script>
 </html>
