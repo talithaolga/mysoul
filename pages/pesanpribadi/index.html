@@ -11,31 +11,41 @@
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="uk-position-relative">
+	<script src="script.js"></script>
 	<nav style="background-color: #DBCDF0" class="uk-navbar uk-navbar-container">
 		<div class="uk-navbar-left">
 		  <a class="uk-navbar-toogle" uk-navbar-toogle-icon href="#">
-			<ul class="uk-iconnav">
-			<li><a href="#" uk-icon="icon: arrow-left; ratio: 3"></a></li>
-			</ul>
+			  <ul class="uk-iconnav">
+				  <li><a onclick="goBack()" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
+			  </ul>
 		  </a>
-		  <img class="uk-border-circle uk-margin-small-right" width="50" height="50" src="./foto/girl1.jpeg">
-		  <h4 class="style-font uk-margin-remove">Yoona Park</h4>
+		  <img class="uk-border-circle uk-margin-small uk-margin-left" width="40" height="40" src="./foto/girl1.jpeg">
+		  <h3 class="style-font uk-margin-small uk-margin-small-left"><b>Yoona Park</b></h3>
 		</div>
 	</nav>
 
 	<div id="container" class="container">
 		<div id="chat" class="chat">
 			<div id="messages" class="messages"></div>
-			<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+			<input id="input" type="text" placeholder="Katakan sesuatu..." autocomplete="off" autofocus="true" />
 		</div>
-		<img src="bot.png" alt="Robot cartoon" height="500vh">
+		<!-- <img src="bot.png" alt="Robot cartoon" height="500vh"> -->
 	</div>
+
 </body>
 <script type="text/javascript" src="index.js" ></script>
 <script type="text/javascript" src="constants.js" ></script>
 <!-- <script type="text/javascript" src="speech.js" ></script> -->
-
+<script>
+    function goBack() {
+      window.history.back();
+    }
+</script>
 </html>

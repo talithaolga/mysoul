@@ -18,6 +18,10 @@ body {
 	margin: 0;
 }
 
+.style-font {
+	font-family: 'Quicksand', sans-serif;
+}
+
 span {
 	padding-right: 15px;
 	padding-left: 15px;
