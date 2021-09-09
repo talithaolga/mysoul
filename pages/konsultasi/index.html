@@ -10,10 +10,12 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
 
 	<!-- UIkit JS -->
-	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
-	</script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,20 +24,20 @@
 	<nav class="uk-navbar-container" uk-navbar>
 		<div class="uk-navbar-center">
 			<ul class="uk-navbar-nav">
-				<li><a onclick="goBack()" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
+				<li><a onclick="goBack()" class="uk-position-left" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
         <div class="uk-padding-small">
-          <div class="uk-grid" uk-grid>
+          <div class="uk-grid uk-margin-left" uk-grid>
             <div>
               <img class="uk-border-circle" width="50" height="50" src="./foto/girl1.jpeg">
             </div>
             
             <div>
-              <span class="uk-text-top"><b>Hai, Jisoo Park!</b></span>
+              <span class="uk-text-top"><b>Hai, Pengguna mysoul!</b></span>
               <p class="uk-margin-remove">Selamat datang, <br> di konsultasi psikolog</p>
             </div>
           </div>
         </div>
-        <li><a href="#" uk-icon="icon: bell; ratio: 1.5" class="uk-position-right"></a></li>
+        <li><a class="uk-position-right" uk-icon="icon: bell; ratio: 1.5"></a></li>
 			</ul> 
 		</div>
 	</nav>
@@ -45,7 +47,7 @@
     <div class="uk-card uk-card-primary uk-card-body uk-padding uk-border-rounded">
       <h5 class="uk-card-title">Bingung dengan Permasalahan Hidupmu?</h5>
       <p>Langsung chat ke ahlinya dengan klik tombol "Coba Konsultasi Gratis"</p>
-      <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom uk-border-pill" style="background-color: #01497C; color: white">Coba Konsultasi Gratis</button>
+      <button onclick="location.href='../datadiri/index.html'" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom uk-border-pill" style="background-color: #01497C; color: white">Coba Konsultasi Gratis</button>
     </div>
     
   <!-- <Alin's Coding> -->
@@ -91,7 +93,7 @@
         </div>
       </div>
 
-      <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom uk-border-pill" style="background-color: #01497C;">Konsultasi Berbayar</button>
+      <button onclick="location.href='../datadiriberbayar/index.html'" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom uk-border-pill" style="background-color: #01497C;">Konsultasi Berbayar</button>
     </div>
 
 </body>

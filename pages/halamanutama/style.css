@@ -1,8 +1,8 @@
+.uk-position-relative {
+  background: black;
+}
+
 .style-font {
   font-family: 'Quicksand', sans-serif;
   color: black;
-}
-
-.border-rounded {
-  border-radius: 0px 0px 10px 10px;
 }

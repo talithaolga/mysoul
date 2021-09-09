@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Profil</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<script src="script.js"></script>
+
+  <nav style="background-color: #DBCDF0" class="uk-navbar uk-navbar-container">
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-toogle" uk-navbar-toogle-icon href="#">
+        <ul class="uk-iconnav">
+        <li><a onclick="goBack()" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
+        </ul>
+      </a>
+      <h3 class="style-font uk-margin-small uk-margin-small-left">Profil</h3>
+    </div> 
+  </nav>
+
+	<div class="uk-padding uk-background-muted">
+    <div class="text-align">
+      <img class="uk-border-circle uk-margin-bottom" width="80" height="80" src="./foto/anisa.jpg"> 
+    </div>
+		
+    <div class="text-align">
+      <h3 class="font-style"><b>mysoulver<b></h3>
+      <p class="font-style">Samudra memang luas, tapi keinginanku untuk memandang lebih melaras</p>
+    </div>
+    
+    <div>
+      <button  onclick="location.href='../mengikuti/index.html'" style="background-color: #01497C" class="uk-button uk-button-primary uk-border-pill uk-margin-left">Mengikuti</button>
+      <button  onclick="location.href='../pengikut/index.html'" style="background-color: #01497C" class="uk-button uk-button-primary uk-border-pill uk-align-right uk-margin-right">Pengikut</button>
+    </div>
+  </div>
+
+  <div><h3 class="font-style uk-text-center uk-margin-top"><b>Ceritaku</b></h3></div>   
+     <div class="uk-card-header">
+      <div class="uk-grid-small uk-flex-middle" uk-grid>
+        <div class="uk-width-auto">
+          <img class="uk-border-circle" width="40" height="40" src="./foto/anisa.jpg">
+        </div>
+        <div class="uk-width-expand">
+          <h6 class="uk-card-title uk-margin-remove-bottom style-font"><b>mysoulver<b></h6>
+        </div>
+        <div>
+          <a href="" uk-icon="icon: more; ratio: 1.5"></a>
+        </div>
+      </div>
+    </div>
+    <div class="uk-card-body">
+        <h4>Paling ga respect sama orang yang nyalahin orang lain cuma karena butuh validasi kalo dia yg paling bener</h4>
+    </div>
+    <div class="uk-card-footer">
+      <a href="" uk-icon="icon: heart; ratio: 1.5"></a>
+      <a href="" uk-icon="icon: commenting; ratio: 1.5"></a>
+    </div>
+  
+  </body>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</html>

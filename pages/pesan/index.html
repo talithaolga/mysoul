@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pesan mysoul</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  </head>
+  
+  <body class="uk-position-relative">
+    <script src="script.js"></script>
+    <nav style="background-color: #DBCDF0" class="uk-navbar uk-navbar-container">
+		  <div class="uk-navbar-left">
+		    <a class="uk-navbar-toogle" uk-navbar-toogle-icon href="#">
+		    	<ul class="uk-iconnav">
+			  	  <li><a onclick="goBack()" uk-icon="icon: arrow-left; ratio: 1.5"></a></li>
+		  	  </ul>
+		    </a>
+		    <h3 class="style-font uk-margin-small uk-margin-small-left">Pesan</h3>
+		  </div>
+	  </nav>
+
+    <div class="uk-padding-small">
+      <div onclick="location.href='../pesanpribadi/index.html'" class="uk-grid uk-margin" uk-grid>
+        <div>
+          <img class="uk-border-circle" width="50" height="50" src="./foto/girl1.jpeg">
+        </div>
+        
+        <div>
+          <span class="uk-text-top"><b>Yoona Park</b></span>
+          <p onclick="location.href='../pesanpribadi/index.html'" class="uk-margin-remove">5 menit yang lalu</p>
+        </div>
+      </div>
+
+      <div class="uk-grid uk-margin" uk-grid>
+        <div>
+          <img class="uk-border-circle" width="50" height="50" src="./foto/boy1.jpeg">
+        </div>
+        
+        <div>
+          <span class="uk-text-top"><b>Kim Kai</b></span>
+          <p class="uk-margin-remove">3 hari yang lalu</p>
+        </div>
+
+      </div>
+
+      <div class="uk-grid uk-margin" uk-grid>
+        <div>
+          <img class="uk-border-circle" width="50" height="50" src="./foto/girl2.jpeg">
+        </div>
+        
+        <div>
+          <span class="uk-text-top"><b>Krystal Lee</b></span>
+          <p class="uk-margin-remove">1 minggu yang lalu</p>
+        </div>
+      </div>
+
+      <div class="uk-grid uk-margin" uk-grid>
+        <div>
+          <img class="uk-border-circle" width="50" height="50" src="./foto/girl3.jpeg">
+        </div>
+        
+        <div>
+          <span class="uk-text-top"><b>Jessica Park</b></span>
+          <p class="uk-margin-remove">1 minggu yang lalu</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</html>

@@ -4,124 +4,25 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Halaman Utama mysoul</title>
+	<title>repl.it</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
-	<!-- UIkit CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
-
-	<!-- UIkit JS -->
-	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<!-- <google-font> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet">
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
 </head>
 
-<body class="uk-position-relative">
-	<script src="script.js"></script>
-  <nav style="background-color: #DBCDF0" class="uk-navbar uk-navbar-container">
-    <div class="uk-navbar-center">
-      <a class="uk-navbar-toogle" uk-navbar-toogle-icon href="#">
-        <ul class="uk-iconnav uk-padding-small">
-          <li><a href="#" uk-icon="icon: user; ratio: 1.5" class="uk-margin-large-right uk-margin-small-left"></a></li>
-          <li><a href="#" uk-icon="icon: pencil; ratio: 1.5" class="uk-margin-large-right uk-margin-small-left"></a></li>
-          <li><a onclick="location.href='pages/konsultasi/index.html'" uk-icon="icon: happy; ratio: 1.5" class="uk-margin-large-right uk-margin-small-left"></a></li>
-          <li><a href="#" uk-icon="icon: comments; ratio: 1.5" class="uk-margin-large-right uk-margin-small-left"></a></li>
-        </ul>
-      </a>
+<body style="background-color: #DBCDF0" class="uk-position-relative uk-padding-small">
+    <script src="script.js"></script>
+    <div class="uk-text-center uk-margin">
+      <h1 class="font-style uk-margin-small uk-position-center">mysoul</h1>
     </div>
-  </nav>
-
-	<div class="uk-card uk-card-default uk-card-small uk-width-1-1 ">
-		<!-- Melon Saoirse -->
-		<div class="uk-card-header">
-			<div class="uk-grid-small uk-flex-middle" uk-grid>
-				<div class="uk-width-auto">
-					<img class="uk-border-circle" width="40" height="40" src="./images/girl1.jpeg">
-            </div>
-            <div class="uk-width-expand">
-              <h6 class="uk-card-title uk-margin-remove-bottom style-font"><b>Melon Saoirse<b></h6>
-            </div>
-            <div>
-              <a href="" uk-icon="icon: more; ratio: 1.5"></a>
-            </div>
-        </div>
-    </div>
-    <div class="uk-card-body">
-        <h4>Paling ga respect sama orang yang nyalahin orang lain cuma karena butuh validasi kalo dia yg paling bener</h4>
-    </div>
-    <div class="uk-card-footer">
-        <a href="" uk-icon="icon: heart; ratio: 1.5"></a>
-        <a href="" uk-icon="icon: commenting; ratio: 1.5"></a>
-    </div>
-    
-    <!-- Jessica Park -->
-    <div class="uk-card-header">
-        <div class="uk-grid-small uk-flex-middle" uk-grid>
-            <div class="uk-width-auto">
-              <img class="uk-border-circle" width="40" height="40" src="./images/girl2.jpeg">
-            </div>
-            <div class="uk-width-expand">
-              <h6 class="uk-card-title uk-margin-remove-bottom style-font"><b>Jessica Park<b></h6>
-            </div>
-            <div>
-              <a href="" uk-icon="icon: more; ratio: 1.5"></a>
-            </div>
-        </div>
-    </div>
-    <div class="uk-card-body">
-        <h4>Jujur, bulan ini gak mudah buatku. Tapi, personally aku bersyukur sama apa yang udah terjadi.</h4>
-    </div>
-    <div class="uk-card-footer">
-        <a href="" uk-icon="icon: heart; ratio: 1.5"></a>
-        <a href="" uk-icon="icon: commenting; ratio: 1.5"></a>
-    </div>
-
-    <!-- Krystal Lee -->
-    <div class="uk-card-header">
-        <div class="uk-grid-small uk-flex-middle" uk-grid>
-            <div class="uk-width-auto">
-              <img class="uk-border-circle" width="40" height="40" src="./images/girl3.jpeg">
-            </div>
-            <div class="uk-width-expand">
-              <h6 class="uk-card-title uk-margin-remove-bottom style-font"><b>Krystal Lee<b></h6>
-            </div>
-            <div>
-              <a href="" uk-icon="icon: more; ratio: 1.5"></a>
-            </div>
-        </div>
-    </div>
-    <div class="uk-card-body">
-        <h4>Kenapa ya semua orang disekitarku pada jahat, gak ada satupun yg mau deket sama aku, gak tau mau curhat sama siapa :( salahku apa</h4>
-    </div>
-    <div class="uk-card-footer">
-        <a href="" uk-icon="icon: heart; ratio: 1.5"></a>
-        <a href="" uk-icon="icon: commenting; ratio: 1.5"></a>
-    </div>
-
-    <!-- Regina Putri Ramadhani, M.Psi., Psi -->
-    <div class="uk-card-header">
-        <div class="uk-grid-small uk-flex-middle" uk-grid>
-            <div class="uk-width-auto">
-              <img class="uk-border-circle" width="40" height="40" src="./images/girl4.jpeg">
-            </div>
-            <div class="uk-width-expand">
-              <h6 class="uk-card-title uk-margin-remove-bottom style-font"><b>Regina Putri Ramadhani, M.Psi., Psi<b></h6>
-            </div>
-            <div>
-              <a href="" uk-icon="icon: more; ratio: 1.5"></a>
-            </div>
-        </div>
-    </div>
-    <div class="uk-card-body">
-        <h4>"Kecemasan, depresi, dan stres disebabkan saat kita hidup untuk menyenangkan orang lain." - Paulo Coelho</h4>
-    </div>
-    <div class="uk-card-footer">
-        <a href="" uk-icon="icon: heart; ratio: 1.5"></a>
-        <a href="" uk-icon="icon: commenting; ratio: 1.5" onclick="location.href='./pages/daftar/index.html'"></a>
-    </div>
-  </div>
 </body>
-
+<script>
+    setTimeout(function(){ 
+     window.location.href = "./pages/masuk/index.html"
+   },3000) 
+</script>
 </html>
