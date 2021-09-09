@@ -1,9 +1,10 @@
 // Options the user could type in
 const prompts = [
   ["hi", "hai", "halo", "hallo", "helo", "hello"],
-  ["bagaimana kabarmu", "gimana kabarmu"],
-  ["what are you doing", "what is going on", "what is up"],
-  ["how old are you"],
+  ["bagaimana kabarmu", "gimana kabarmu", "apa kabar"],
+  ["baik juga", "baik dong", "baik", "baik sekali"],
+  ["apa yang kamu lakukan", "what is going on", "what is up"],
+  ["berapa umurmu"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you"],
   [
@@ -34,6 +35,10 @@ const replies = [
   [
     "baik... kabarmu bagaimana?",
     "baik sekali, kalau kamu bagaimana kabarnya?",
+    "baik sekali, kamu gimana?"
+  ],
+  [
+    "wah bagus",
   ],
   [
     "Nothing much",
