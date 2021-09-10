@@ -80,7 +80,7 @@ function addChat(input, product) {
   botImg.src = "bot-mini.png";
   botImg.className = "avatar";
   botDiv.className = "bot response";
-  botText.innerText = "Typing...";
+  botText.innerText = "Mengetik...";
   botDiv.appendChild(botText);
   botDiv.appendChild(botImg);
   messagesContainer.appendChild(botDiv);

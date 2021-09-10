@@ -4,7 +4,6 @@
 
 html {
 	height: 100%;
-
 }
 
 body {
@@ -67,9 +66,9 @@ input {
 	border-radius: 10px;
 }
 
-/* #bot {
-	margin-left: auto;
-} */
+#bot {
+	margin-right: auto;
+}
 
 .bot {
 	font-family: Consolas, 'Courier New', Menlo, source-code-pro, Monaco,  
