@@ -24,6 +24,7 @@
       <h2 class="text-color uk-margin-small">Life belong to you <br> Just the way you are</h2>
     </div>
 
+    <form class="uk-form-stacked" action="../halamanutama/index.html"  name="myForm" onsubmit="return validateForm()" method="post">
     <div>
       <p>Email</p>
       <form class="form">
@@ -49,9 +50,26 @@
             <input class="uk-input uk-border-rounded" type="text" placeholder="Masukkan nama pengguna">
         </div>
       </form>
-      <p uk-margin>
-        <button onclick="location.href='../halamanutama/index.html'" style="background-color: #01497C" class="uk-button uk-button-primary uk-width-1-1 uk-border-pill">Buat Akun</button>
-      </p>
+      <div class="footer uk-margin-large-top">
+        <input style="background-color: #01497C" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom uk-border-pill" type="submit" value="Buat Akun">
+      </div>
     </div>
+    </form>
   </body>
+
+  <script>
+    function goRegister() {
+      window.location.href = "../halamanutama/index.html"
+    }
+
+    function validateForm() 
+    {
+    let x = document.forms["myForm"]["email"].value;
+    if (x == "") {
+      alert("Lengkapi terlebih dahulu untuk masuk");
+      return false;
+    }
+}
+  </script>
+  
 </html>
